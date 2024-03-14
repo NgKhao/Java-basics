@@ -1,0 +1,44 @@
+package view;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+
+import model.CounterModel;
+
+public class CounterView extends JFrame{
+	private CounterModel counterModel;
+	private JButton jButton_up;
+	private JButton jButton_down;
+	private JLabel jLabel_value;
+	public CounterView() {
+		this.counterModel = new CounterModel();
+		this.init();
+		this.setVisible(true);
+	}
+	
+	public void init() {
+		this.setTitle("Counter");
+		this.setSize(300, 300);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		jButton_up = new JButton("UP");
+		jButton_down = new JButton("DOWN");
+//		JLable để hiện thị dữ liệu, chỉ nhận value text
+		jLabel_value = new JLabel(this.counterModel.getValue() + "", JLabel.CENTER );
+		
+		JPanel jPanel = new JPanel();
+		jPanel.setLayout(new BorderLayout());
+		jPanel.add(jButton_up, BorderLayout.EAST);
+		jPanel.add(jButton_down, BorderLayout.WEST);
+		jPanel.add(jLabel_value, BorderLayout.CENTER);
+		
+		this.setLayout(new BorderLayout());
+		this.add(jPanel, BorderLayout.CENTER);
+	}
+}

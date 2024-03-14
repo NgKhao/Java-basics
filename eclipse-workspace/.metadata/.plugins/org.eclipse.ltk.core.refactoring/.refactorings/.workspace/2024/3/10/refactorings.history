@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Java_82_MVC_xu_ly_su_kien&apos; to &apos;Java_81_MVC_xu_ly_su_kien&apos;&#x0D;&#x0A;- Original element: &apos;Java_82_MVC_xu_ly_su_kien&apos;&#x0D;&#x0A;- Renamed element: &apos;Java_82_MVC_xu_ly_su_kien&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Java_82_MVC_xu_ly_su_kien&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Java_82_MVC_xu_ly_su_kien" name="Java_81_MVC_xu_ly_su_kien" references="true" stamp="1709915892677" version="1.0"/>
+</session>

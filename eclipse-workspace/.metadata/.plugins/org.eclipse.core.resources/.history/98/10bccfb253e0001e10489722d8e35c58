@@ -1,0 +1,24 @@
+package view;
+
+import javax.swing.JFrame;
+
+import model.MyColorModel;
+
+public class MyColorView  extends JFrame{
+	private MyColorModel myColorModel;
+	private JLabel
+	
+	public MyColorView() {
+		this.myColorModel = new MyColorModel();
+		this.init();
+	}
+	
+	private void init() {
+		this.setTitle("My Color");
+		this.setSize(600, 600);
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		
+		this.setVisible(true);
+	}
+}

@@ -1,0 +1,7 @@
+Java không có đa kế thừa, nghĩa là 1 class ké thừa từ nhiều class
+Muốn kế thừa nhiều class cung lúc thì dùng interface, mặc định public và abstract 
+
+Lớp trừu tượng cần được kế thừa và phương thức của nó không được triển khai. Nó không được khởi tạo ( not Hinh h = new hinh() mà chỉ được Hinh h = new lớp con())
+Phương thức trừu tượng không được triển khai, nó sẽ đươc triển khai trong lớp con
+
+packet được đặt full chữ thường
