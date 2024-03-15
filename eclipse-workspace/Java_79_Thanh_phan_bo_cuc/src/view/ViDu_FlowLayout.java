@@ -17,9 +17,9 @@ public class ViDu_FlowLayout extends JFrame{
 		FlowLayout flowLayout = new FlowLayout();
 		FlowLayout flowLayout_1 = new FlowLayout(FlowLayout.RIGHT);
 		FlowLayout flowLayout_2 = new FlowLayout(FlowLayout.CENTER, 60, 100);
-//		this.setLayout(flowLayout);
+		this.setLayout(flowLayout);
 //		this.setLayout(flowLayout_1);
-		this.setLayout(flowLayout_2);
+//		this.setLayout(flowLayout_2);
 		
 		JButton jButton_1 = new JButton("1");
 		JButton jButton_2 = new JButton("2");
